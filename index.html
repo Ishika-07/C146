@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    <title>Animated Robot</title>
+</head>
+
+<body>
+    <a-scene background="color:black">
+
+        <a-entity position="0 0 15">
+            <a-camera></a-camera>
+        </a-entity>
+
+        <a-entity>
+            <a-box position="0 6 -2" color="cyan" shadow width="6" height="5"></a-box>
+        </a-entity>
+
+        <a-entity>
+            <a-box position="0 3 -2" color="purple" shadow width="3" height="1"></a-box>
+        </a-entity>
+
+        <a-entity>
+            <a-box position="0 -0.8 -2" color="cyan" shadow width="8" height="7"></a-box>
+        </a-entity>
+
+        <a-entity>
+            <a-cylinder position="-5.5 0 -3" radius="0.5" height="7" color="purple" rotation="0 0 135"shadow></a-cylinder>
+        </a-entity>
+
+        <a-entity>
+            <a-cylinder position="5.5 0 -3" radius="0.5" height="7" color="purple" rotation="0 0 45"shadow></a-cylinder>
+        </a-entity>
+        
+        <a-entity>
+            <a-cylinder position="-2 -7 -3" radius="0.6" height="7" color="purple"shadow></a-cylinder>
+        </a-entity>
+
+        <a-entity>
+            <a-cylinder position="2 -7 -3" radius="0.6" height="7" color="purple"shadow></a-cylinder>
+        </a-entity>
+
+        <a-entity>
+            <a-sphere position="-8.8 -3 -3" radius="1" color="pink" shadow></a-sphere>
+        </a-entity>
+
+        <a-entity>
+            <a-sphere position="8.8 -3 -3" radius="1" color="pink" shadow></a-sphere>
+        </a-entity>
+
+        <a-entity>
+            <a-sphere position="-2 -10 -3" radius="1" color="pink" shadow></a-sphere>
+        </a-entity>
+
+        <a-entity>
+            <a-sphere position="2 -10 -3" radius="1" color="pink" shadow></a-sphere>
+        </a-entity>
+
+        <a-entity>
+            <a-plane position="0 -10 -2" rotation="-100 0 0" width="10" height="10" color="white" shadow></a-plane>
+        </a-entity>
+
+        <a-entity>
+            <a-sphere position="0.5 7 -4" radius="0.5" color="red" animation="property: position; from: 0.63 9 0.9; to: -0.63 9 0.9 dir: alternate easing:linear; loop: true; dur: 1000" shadow></a-sphere>
+        </a-entity>
+
+        <a-entity>
+            <a-cylinder position="0.5 10 -2" radius="0.04" height="2" color="white" animation="property: position; from: 0.63 8.5 0.9; to: -0.63 8.5 0.9 dir: alternate easing:linear; loop: true; dur: 1000" shadow></a-cylinder>
+        </a-entity>
+
+        <a-entity>
+            <a-sphere position="-1 6 0" radius="0.5" color="white" shadow></a-sphere>
+        </a-entity>
+        
+        <a-entity>
+            <a-sphere position="1 6 0" radius="0.5" color="white" shadow></a-sphere>
+        </a-entity>
+
+        <a-entity>
+            <a-sphere position="-1 6 1" radius="0.2" color="black" animation="property: position; from: -0.8 6 1 ; to: -0.8 5.5 1;easing:linear; loop: true; dur: 2000" shadow ></a-sphere>
+        </a-entity>
+        
+        <a-entity>        
+            <a-sphere position="1 6 1" radius="0.2" color="black" animation="property: position; from: 0.8 6 1 ; to: 0.8 5.5 1;easing:linear; loop: true; dur: 2000" shadow></a-sphere>
+        </a-entity>
+
+        <a-entity>
+            <a-box position="0 -0.8 -2" color="pink" shadow width="6" height="5"></a-box>
+        </a-entity>
+        
+        <a-entity>
+            <a-box position="0 5 -2" color="red" shadow width="2" height="0.2"></a-box>
+        </a-entity>
+
+        <a-sphere position="-2 0.5 -1" color="red" shadow radius="0.4"></a-sphere>
+        <a-sphere position="0 0.5 -1" color="blue" shadow radius="0.4"></a-sphere>
+        <a-sphere position="2 0.5 -1" color="yellow" shadow radius="0.4"></a-sphere>
+        <a-sphere position="-2 -1.5 -1" color="green" shadow radius="0.4"></a-sphere>
+        <a-sphere position="0 -1.5 -1" color="#FF4B4B" shadow radius="0.4"></a-sphere>
+        <a-sphere position="2 -1.5 -1" color="#FF00BF" shadow radius="0.4"></a-sphere>
+        
+
+    </a-scene>
+
+</body>
+</html>
